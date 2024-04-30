@@ -40,7 +40,7 @@ public class StoreSaveVideo extends AppCompatActivity {
         videoArrayList = new ArrayList<>();
         recycler_view.setLayoutManager(new GridLayoutManager(this, 2));
         nodatamsg.setVisibility(View.GONE);
-        File[] listFiles = new File(getFilesDir() + "/Miracle_ffmpeg").listFiles();
+        File[] listFiles = new File(getFilesDir() + "/Chirag_ffmpeg").listFiles();
         if (listFiles == null || listFiles.length < 1) {
             nodatamsg.setVisibility(View.VISIBLE);
         } else {

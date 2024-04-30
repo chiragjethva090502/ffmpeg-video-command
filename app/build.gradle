@@ -44,6 +44,6 @@ dependencies {
     implementation 'com.arthenica:mobile-ffmpeg-full:4.4'
     implementation 'commons-io:commons-io:2.15.1'
     implementation 'com.github.hiteshsondhi88.libffmpeg:FFmpegAndroid:0.2.5'
-    implementation project(path: ':miracleffmpeg')
+    implementation project(path: ':chiragffmpeg')
 
 }

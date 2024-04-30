@@ -1,4 +1,4 @@
-package com.miracleffmpeg.video;
+package com.chiragffmpeg.video;
 
 import android.content.Context;
 import android.util.Log;
@@ -30,7 +30,7 @@ public class Videoffmpeg {
     }
 
     public static String executeCutVideoCommand(Context context, String filePath,String startTime, String duration) {
-        File outputDir = new File(context.getFilesDir() + "/" + "Miracle_ffmpeg");
+        File outputDir = new File(context.getFilesDir() + "/" + "Chirag_ffmpeg");
         if (!outputDir.exists() && !outputDir.mkdirs()) {
             return null;
         }
@@ -48,7 +48,7 @@ public class Videoffmpeg {
     }
 
     public static String executeSlowMotionCommand(Context context, String filePath, String startTime, String duration) {
-        File outputDir = new File(context.getFilesDir() + "/" + "Miracle_ffmpeg");
+        File outputDir = new File(context.getFilesDir() + "/" + "Chirag_ffmpeg");
         if (!outputDir.exists() && !outputDir.mkdirs()) {
             return null;
         }
@@ -84,7 +84,7 @@ public class Videoffmpeg {
     }
 
     public static String executeReverseCommand(Context context, String filePath) {
-        File outputDir = new File(context.getFilesDir() + "/" + "Miracle_ffmpeg");
+        File outputDir = new File(context.getFilesDir() + "/" + "Chirag_ffmpeg");
         if (!outputDir.exists() && !outputDir.mkdirs()) {
             return null;
         }
@@ -100,7 +100,7 @@ public class Videoffmpeg {
     }
 
     public static String executeFastCommand(Context context, String filePath) {
-        File outputDir = new File(context.getFilesDir() + "/" + "Miracle_ffmpeg");
+        File outputDir = new File(context.getFilesDir() + "/" + "Chirag_ffmpeg");
         if (!outputDir.exists() && !outputDir.mkdirs()) {
             return null;
         }
@@ -123,7 +123,7 @@ public class Videoffmpeg {
     }
 
     public static String executeVideoCompressCommand(Context context, String filePath) {
-        File outputDir = new File(context.getFilesDir() + "/" + "Miracle_ffmpeg");
+        File outputDir = new File(context.getFilesDir() + "/" + "Chirag_ffmpeg");
         if (!outputDir.exists() && !outputDir.mkdirs()) {
             return null;
         }

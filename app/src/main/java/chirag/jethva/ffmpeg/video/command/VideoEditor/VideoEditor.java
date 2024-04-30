@@ -18,16 +18,20 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
+
 import androidx.appcompat.app.AppCompatActivity;
-import chirag.jethva.ffmpeg.video.command.Creation.StoreSaveVideo;
-import chirag.jethva.ffmpeg.video.command.R;
-import chirag.jethva.ffmpeg.video.command.Utils.CustomProgressbar;
-import com.miracleffmpeg.video.Videoffmpeg;
+
+import com.chiragffmpeg.video.Videoffmpeg;
+
 import java.io.File;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.TimeZone;
+
+import chirag.jethva.ffmpeg.video.command.Creation.StoreSaveVideo;
+import chirag.jethva.ffmpeg.video.command.R;
+import chirag.jethva.ffmpeg.video.command.Utils.CustomProgressbar;
 
 
 @SuppressLint("WrongConstant")

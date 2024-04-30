@@ -13,6 +13,6 @@ dependencyResolutionManagement {
         maven { url 'https://jitpack.io' }
     }
 }
-rootProject.name = "Miracle ffmpeg"
+rootProject.name = "Chirag ffmpeg"
 include ':app'
-include ':miracleffmpeg'
+include ':chiragffmpeg'
