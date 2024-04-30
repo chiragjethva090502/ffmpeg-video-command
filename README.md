@@ -9,3 +9,9 @@
 - Video Compress
 
 
+## Contact Me
+
+- [**Mail me**](mailto:chiragjethva09@gmail.com)
+
+:+1: **Happy Coding!!!**
+
